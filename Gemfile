@@ -1,4 +1,7 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll"
-gem "html-proofer"
+source "https://rubygems.org"
+gemspec
+
+
+gem 'jekyll-seo-tag'
