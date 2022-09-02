@@ -2,7 +2,7 @@
 title: Dong Liang's CV 
 description: ddbullfrog's CV
 favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
+baseurl: "/"
 url: https://ddbullfrog.github.io/resumecard
 rss_url: /pages/atom.xml
 google_analytics: UA-63653234-1
@@ -14,25 +14,25 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang#gmail.com
-  link: http://ddbullfrog.com
+  name: 徐雁鸿 
+  title: A FREE MAN
+  address: 
+  email: scxyha@163.com
+  link: 
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /resumecard/assets/img/avatar.JPG
+  github: 
+  linkedin: 
+  twitter: 
+  gavatar: /home/godlike/视频/简历头像.png
   stackoverflow:
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: XXX Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
+      company: 
+      location: 
+      title: 
+      started: 
+      duration: 
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
     - work2:
       company: XXX Ltd
