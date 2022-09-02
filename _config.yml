@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://akiritsu.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : "记忆的车辙"
+owner               : "徐雁鸿"
+url                : "https://scxyha.github.io"
+baseurl            : "/"
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : 
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+statement           : "Writed by 徐雁鸿, Designed by DeerRIDER, All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -59,7 +59,7 @@ collections:
     output          : true
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+disqus_username     : nobody
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -76,7 +76,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "Briefie" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -84,16 +84,16 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
+email               : "scxyha@163.com" 
 linkedin            : 
-github              : "just-test" 
+github              : "scxyha" 
 gitlab              : 
-website             : "https://github.com/akiritsu/pRoJEct-VeXEd"
-twitter             : "just-test"
-facebook            : "just-test"
+website             : "scxyha.github.io"
+twitter             : 
+facebook            : 
 instagram           : 
-youtube             : "just-test"
-steam               : "just-test"
+youtube             : 
+steam               :
 weibo               :
       
 # 6. Where things are
