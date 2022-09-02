@@ -1,15 +1,11 @@
-# Example Site settings
+name: "Gereksiz"
+markdown: redcarpet
+highlighter: pygments
+permalink: :title
+exclude: [README.md, LICENSE, Makefile]
+baseurl: '/gereksiz'
 
-#google_analytics: UA-NNNNNNNN-N
-
-#header_pages:
-#  - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
-
-plugins:
-  - jekyll-seo-tag
+# Information for the Atom feed
+gereksiz:
+   author: "John Doe"
+   email: "john.doe@mail.sexy"
