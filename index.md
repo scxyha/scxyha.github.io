@@ -1,8 +1,7 @@
 ---
 title: /
-layout: home /
+layout: home
 permalink: /
-god: /
 ---
 
 # Lorem ipsum
