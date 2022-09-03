@@ -65,14 +65,14 @@ defaults:
       collection_list     : true        # whether show archive button by default
       home_btn            : true        # whether show home by default
       maximize            : true        # whether show maximize button by default
-      encrypted_text      : false       # whether use encrytion function by default
+      encrypted_text      : true       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "Briefie" # author name by default
+      author              : "徐雁鸿" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
-      post_list           : false       # whether show list of post by default      
-      comment             : true
+      post_list           : true       # whether show list of post by default      
+      comment             : false
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
