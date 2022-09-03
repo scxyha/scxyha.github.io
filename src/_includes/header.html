@@ -21,7 +21,7 @@
               <a class="header_btn" href="{{ site.url }}{{ site.baseurl }}">
                 <i class="fa btn_icon fa-home">
                   {% if page.btn_text != false %}
-                  <p class="btn_text">Home</p>
+                  <p class="btn_text">主页</p>
                   {% endif %}
                 </i>
               </a>
@@ -31,7 +31,7 @@
               <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
                 <i class="fa btn_icon fa-window-maximize">
                   {% if page.btn_text != false %}
-                  <p class="btn_text" id="mxmz_text">满屏</p>
+                  <p class="btn_text" id="mxmz_text">宽屏</p>
                   {% endif %}
                 </i>
               </a>
@@ -60,7 +60,7 @@
               <a class="header_btn" onclick="scroll_percentage(-0.88)">
                 <i class="fa btn_icon fa-backward">
                   {% if page.btn_text != false %}
-                  <p class="btn_text">上一页</p>
+		  <p class="btn_text">下滑</p>
                   {% endif %}
                 </i>
               </a>
@@ -68,7 +68,7 @@
               <a class="header_btn" onclick="scroll_percentage(0.88)">
                 <i class="fa btn_icon fa-forward">
                   {% if page.btn_text != false %}
-                  <p class="btn_text">下一页</p>
+                  <p class="btn_text">上滑</p>
                   {% endif %}
                 </i>
               </a>
@@ -76,7 +76,7 @@
               <a class="header_btn popup_btn" onclick="toggle_toc()">
                 <i class="fa btn_icon fa-list">
                   {% if page.btn_text != false %}
-                  <p class="btn_text">内容</p>
+                  <p class="btn_text">目录表</p>
                   {% endif %}
                 </i>
               </a>
