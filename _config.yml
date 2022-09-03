@@ -1,8 +1,8 @@
 # 1. Site Settings
-title               : "记忆的车辙"
+title               : "一度认为意义是有意义的，但是却陷入了长久的虚无"
 owner               : "徐雁鸿"
-url                : "https://scxyha.github.io"
-baseurl            : "/"
+url                 : "https://scxyha.github.io"
+baseurl             : "/"
 permalink           : /:title/
 description         : 
 markdown            : kramdown
@@ -15,43 +15,35 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 collection_order    : 
   [
     "posts",
-    #    "math",
-    #    "album",
-    #    "physics",
-    #    "biology",
-    #    "finance",
-    #    "physics",
-    #    "my_notes",
-    #    "portfolio",
   ]
 collections:
   math:   
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Mathematics"
   portfolio:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
     order: # specify post order manually
       - portfolio3.md
       - portfolio2.md
       - portfolio1.md
   album:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
     sort_by         : date
   physics:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
   biology:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
   finance:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
   my_notes:
-    output          : false
+    output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
     alias           : "My Notes"
